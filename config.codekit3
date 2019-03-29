@@ -16,18 +16,18 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
+	"/config.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/config.html",
+		"oF": 0
+		},
 	"/dash.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/dash.html",
-		"oF": 0
-		},
-	"/home.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/home.html",
 		"oF": 0
 		},
 	"/login.html": {
@@ -112,6 +112,28 @@
 		"oAP": "/ui/css/master-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/ui/img/covers/cupon.jpg": {
+		"ft": 16384,
+		"iS": 5065,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/covers/cupon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/covers/plantilla-1.jpg": {
+		"ft": 16384,
+		"iS": 24716,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/covers/plantilla-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/ui/img/curves.png": {
 		"ft": 32768,
@@ -301,6 +323,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/ui/img/ic/check.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/ic/check.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/ui/img/ic/list.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -311,11 +343,51 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/ui/img/ic/menu-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/ic/menu-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/ic/menu-close copy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/ic/menu-close copy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/ic/menu-close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/ic/menu-close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/ui/img/ic/menu.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/ui/img/ic/menu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/ic/upload.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/ic/upload.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
