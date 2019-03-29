@@ -16,18 +16,18 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
-	"/config.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/config.html",
-		"oF": 0
-		},
 	"/dash.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/dash.html",
+		"oF": 0
+		},
+	"/home.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/home.html",
 		"oF": 0
 		},
 	"/login.html": {
