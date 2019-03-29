@@ -144,7 +144,7 @@ function sliderConfigFun(e){
   }
 }
 
-var numCupones, csvLoaded = false;
+
 
 function loadFileCSV(t){
   var file = t.nextElementSibling,
@@ -180,6 +180,7 @@ function cleanCsv(t){
       text.innerHTML = "Escoge un archivo .csv";
 }
 
+var numCupones, csvLoaded = false;
 
 function getNumCSV(){
     var textCSVLoaded = _(".numCSV"),

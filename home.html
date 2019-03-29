@@ -53,7 +53,7 @@ http://dragonflycity.com/
         </div>
       </a>
       <ul class="displayFlex">
-        <li><a role="button" class="trans5">Hola <span>Juliana</span></a></li>
+        <li><a role="button" class="trans5">Hola <span class="userName">Juliana</span></a></li>
         <li><a role="button" class="trans5">Promociones</a></li>
         <li><a role="button" class="trans5">Tutoriales</a></li>
         <li><a role="button" class="trans5">Cerrar Sesión</a></li>
@@ -172,40 +172,44 @@ http://dragonflycity.com/
               <div class="rowConfig displayFlex">
                 <div class="fieldConfigWrap">
                   <label class="labelData1">Nombre de la Promoción</label>
-                  <input class="textInput inputData1" type="text" required/>
+                  <input id="nombrePromo" class="textInput inputData1" type="text" required/>
                 </div>
                 <div class="fieldConfigWrap">
                   <label class="labelData1">Descripción de la promoción</label>
-                  <textarea class="textInput inputData1" name=""></textarea>
+                  <textarea id="descripcionPromo" class="textInput inputData1" name=""></textarea>
                 </div>
               </div>
 
               <div class="rowConfig displayFlex">
                 <div class="fieldConfigWrap">
                   <label class="labelData1">Marca</label>
-                  <select name="" class="inputData1">
-                    <option value="">Selecciona una marca</option>
-                    <option value="">Pepsi</option>
-                    <option value="">Epura</option>
-                    <option value="">Gatorade</option>
-                    <option value="">Seven Up</option>
-                    <option value="">Lipton</option>
+                  <select id="selectBrand" name="" class="inputData1">
+                    <option class="brandPromo" value="">Selecciona una marca</option>
+                    <option class="brandPromo" value="">Pepsi</option>
+                    <option class="brandPromo" value="">Epura</option>
+                    <option class="brandPromo" value="">Gatorade</option>
+                    <option class="brandPromo" value="">Seven Up</option>
+                    <option class="brandPromo" value="">Lipton</option>
                   </select>
                 </div>
                 <div class="fieldConfigWrap">
                   <label class="labelData1">Proveedor</label>
-                  <input class="textInput inputData1" type="text">
+                  <select id="selectProvider" name="" class="inputData1">
+                    <option class="providerDefault" value="">Selecciona un Proveedor</option>
+                    <option class="providerDefault" value="">OXXO</option>
+                    <option class="providerDefault" value="">Seven Eleven</option>
+                  </select>
                 </div>
               </div>
 
               <div class="rowConfig displayFlex">
                 <div class="fieldConfigWrap">
                   <label class="labelData1">Fecha de Inicio</label>
-                  <input class="textInput dateConfig inputData1" type="date" min="2018-12-31" required>
+                  <input id="fechaInicio" class="textInput dateConfig inputData1" type="date" min="2018-12-31" required>
                 </div>
                 <div class="fieldConfigWrap">
                   <label class="labelData1">Fecha de Final</label>
-                  <input class="textInput dateConfig inputData1" type="date" min="2018-12-31" required>
+                  <input id="fechaFin" class="textInput dateConfig inputData1" type="date" min="2018-12-31" required>
                 </div>
               </div>
 
@@ -248,7 +252,7 @@ http://dragonflycity.com/
                   </div>
                   <div class="selectionContainer">
                     <label>Seleccionar</label>
-                    <input id="" name="" type="checkbox">
+                    <input class="checkBoxFunction" name="" type="checkbox">
                   </div>
                 </div>
                 <!-- Funcionalidad 2 -->
@@ -314,7 +318,7 @@ http://dragonflycity.com/
                 <p class="noneNumCSV infoLoadCSV trans5">Aún no has cargado un archivo.</p>
                 <p class="numCSV infoLoadCSV trans5">Tienes <span id="numCSV">200</span> códigos para esta promoción.</p>
               </div>
-              <button class="buttonConfig centerButton" type="button" name="button" onclick="getNumCSV()">Cargar</button>
+              <button id="loadCSVGet" class="buttonConfig centerButton" type="button" name="button" onclick="getNumCSV()">Cargar</button>
               <button class="buttonConfig leftButton" type="button" name="button" onclick="sliderConfigFun(1)">Anterior</button>
               <button class="buttonConfig rightButton" type="button" name="button" onclick="checkSteps(3, this)">Siguiente</button>
             </form>
@@ -341,7 +345,7 @@ http://dragonflycity.com/
                   </div>
                   <div class="selectionContainer">
                     <label>Seleccionar</label>
-                    <input id="" name="" type="checkbox">
+                    <input class="checkBoxTheme" id="" name="" type="checkbox">
                   </div>
                 </div>
                 <!-- Plantilla 2 -->
@@ -396,5 +400,10 @@ http://dragonflycity.com/
       </div>
     </main>
     <script src="ui/js/main.js" charset="utf-8" async></script>
+    <script type="text/javascript">
+      window.onload = function(){
+        putUserName();
+      }
+    </script>
   </body>
 </html>
