@@ -28,9 +28,40 @@ sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, labe
 header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } article, aside, details, figcaption, figure, footer, header, hgroup, menu,
 nav, section {display: block; } ol, ul {list-style: none; }
 * {margin: 0; padding: 0; box-sizing: border-box; }
-* a {cursor: pointer; text-decoration: none; color: #fff;}
-* i {font-style: italic; }
-* p { font-size: 1rem;}
+* a {cursor: pointer; text-decoration: none; color: #fff }
+* i {font-style: italic  }
+* p { font-size: 1rem }
+* b { font-family: 'FuturaPT Bold', sans-serif }
+#loadingConf{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-width: 250px;
+  height: 100vh;
+  z-index: 999;
+  background-image: url('../img/curves.png');
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-color: #194d91;
+  background-color: -moz-linear-gradient(left, #194d91 1%, #11396c 100%);
+  background-color: -webkit-linear-gradient(left, #194d91 1%,#11396c 100%);
+  background-color: linear-gradient(to right, #194d91 1%,#11396c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194d91', endColorstr='#11396c',GradientType=1 );
+}
+#loadingConf>img{
+  position: absolute;
+  top: calc(50% - 80px);
+  left: calc(50% - 40px);
+}
+#loadingConf>p{
+  position: absolute;
+  width: 100px;
+  left: calc(50% - 50px);
+  top: calc(50% - 10px);
+  text-align: center;
+}
 .displayFlex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -599,7 +630,7 @@ main.home>#promosW>ul>li{
   overflow-x:hidden;
 }
 .config>#configWrap>ul#sliderConfig{
-  margin-left: 0%;
+  margin-left: -400%;
   width: 500%;
   min-height: 100vh;
 }
@@ -917,6 +948,8 @@ background-image:
   border-radius: 100%;
 }
 .rowCenterConfig>label:hover>img{
+  -webkit-transform: translateY(-8px);
+  -moz-transform: translateY(-8px);
   transform: translateY(-8px);
 }
 .rowCenterConfig>label>p{
@@ -960,7 +993,7 @@ background-image:
 .rowCenterConfig>.numCSV>span{
   font-size:1.2rem;
   text-decoration: underline;
-  font-family: "FuturaPT Bold", sans-serif;;
+  font-family: "FuturaPT Bold", sans-serif;
 }
 #extMenu{
   position: fixed;
@@ -1055,8 +1088,58 @@ background-image:
 }
 .errorMissingColor{ color: #D8353D !important;}
 .errorMissingBorder{ border:1px solid #D8353D !important; }
+#rowConfigEditPlantilla{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 380px;
+}
+#rowConfigEditPlantilla>a{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+  background: red;
+}
+#rowConfigEditPlantilla>a:hover{
+  opacity: 0.7;
+}
+#iframePlantilla{
+  position: relative;
+  -moz-transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+}
+#toolsForEditWrap{
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  color: #fff;
+  border:1px solid orange;
+}
+#toolsForEditWrap>a{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background: red;
+}
+@media (min-width: 580px) {
+  #iframePlantilla{
+    -webkit-transform: scale(0.71);
+    -moz-transform: scale(0.71);
+    transform: scale(0.71);
+  }
+}
 /*DESKTOP*/
 @media (min-width: 880px) {
+  #rowConfigEditPlantilla{ height: 396px; }
+  #iframePlantilla{
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+  }
   .hideOnMobile{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1309,7 +1392,6 @@ background-image:
   .promoItemDash>div:first-child>p{ padding-left:5px }
   .promoItemDash>div>p{ text-align: left; }
   .promoItemDash>div>span{ text-align: left; }
-
 }
 
 

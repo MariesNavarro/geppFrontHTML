@@ -207,22 +207,22 @@ function checkSteps(n, t){
       checkConfig_1(n,t);
     break;
     case 2:
-    console.log("Selección De Funcionalidad");
       responseStep(n , t, 1);
     break;
     case 3:
-      console.log("Configuración Funcionalidad");
       responseStep(n , t, 1);
     break;
     case 4:
-      console.log("Selección de Plantilla");
       responseStep(n , t, 1);
     break;
     case 5:
-      console.log("Edición de Plantilla");
       responseStep(n , t, 1);
     break;
   }
+}
+
+function compactConfigMenu(){
+  
 }
 
 function checkConfig_1(n, t){

@@ -45,6 +45,10 @@ http://dragonflycity.com/
     <link rel="stylesheet" href="ui/css/master.css">
   </head>
   <body>
+    <!-- <div id="loadingConf" style="display:none">
+      <img src="ui/img/dragonfly.gif" width="80">
+      <p>Cargando...</p>
+    </div> -->
     <div id="extMenu" class="trans5 displayFlex">
       <a class="closeMenu" role="button" onclick="menuConfig('close')">
         <div class="closeConfig">
@@ -382,7 +386,7 @@ http://dragonflycity.com/
               <button class="buttonConfig rightButton" type="button" name="button" onclick="checkSteps(4, this)">Siguiente</button>
             </form>
           </li>
-          <li class="_5">
+          <li class="editorPlantilla">
             <!-- Configurador Edición de Plantilla -->
             <div class="errorWConfig trans5">
               <p>Tienes que seleccionar una opción.</p>
@@ -391,6 +395,10 @@ http://dragonflycity.com/
               <h2>Configurador de Promoción</h2>
               <h3>Edición de Plantilla</h3>
             </header>
+            <div id="rowConfigEditPlantilla" class="rowConfig">
+              <a role="button"></a>
+              <iframe id="iframePlantilla" src="plantilla.html" width="880" height="495"></iframe>
+            </div>
             <form action="" method="" autocomplete="off">
               <button class="buttonConfig leftButton" type="button" name="button" onclick="sliderConfigFun(3)">Anterior</button>
               <button class="buttonConfig rightButton" type="button" name="button" onclick="checkSteps(5, this)">Guardar</button>

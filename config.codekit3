@@ -37,6 +37,13 @@
 		"oAP": "/login.html",
 		"oF": 0
 		},
+	"/plantilla.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/plantilla.html",
+		"oF": 0
+		},
 	"/ui/css/fonts/futurapt-bold.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -113,6 +120,111 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/ui/css/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/ui/css/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/ui/css/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/css/style.css.map",
+		"oF": 0
+		},
+	"/ui/img/back/epura.jpg": {
+		"ft": 16384,
+		"iS": 99874,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/back/epura.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/back/frutzzo.jpg": {
+		"ft": 16384,
+		"iS": 95567,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/back/frutzzo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/back/gatorade.jpg": {
+		"ft": 16384,
+		"iS": 482791,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/back/gatorade.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/back/pepsi.jpg": {
+		"ft": 16384,
+		"iS": 187904,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/back/pepsi.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/back/sevenup.jpg": {
+		"ft": 16384,
+		"iS": 16280,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/back/sevenup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/botonCupon/default.png": {
+		"ft": 32768,
+		"iS": 3026,
+		"oA": 0,
+		"oAP": "/ui/img/botonCupon/default.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/botonDescarga/default.png": {
+		"ft": 32768,
+		"iS": 3075,
+		"oA": 0,
+		"oAP": "/ui/img/botonDescarga/default.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/conf/loadLogo.jpg": {
+		"ft": 16384,
+		"iS": 5739,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/conf/loadLogo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/ui/img/covers/cupon.jpg": {
 		"ft": 16384,
 		"iS": 5065,
@@ -133,6 +245,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/cupon/default.png": {
+		"ft": 32768,
+		"iS": 36273,
+		"oA": 0,
+		"oAP": "/ui/img/cupon/default.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/ui/img/curves.png": {
@@ -165,6 +288,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/ui/img/dragonfly.gif": {
+		"ft": 4194304,
+		"iS": 16773,
+		"oA": 0,
+		"oAP": "/ui/img/dragonfly.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/ui/img/fav/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -206,6 +337,103 @@
 		"oAP": "/ui/img/fav/browserconfig.xml",
 		"oF": 0
 		},
+	"/ui/img/fav/epura/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 3086,
+		"oA": 0,
+		"oAP": "/ui/img/fav/epura/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/epura/android-chrome-384x384.png": {
+		"ft": 32768,
+		"iS": 5021,
+		"oA": 0,
+		"oAP": "/ui/img/fav/epura/android-chrome-384x384.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/epura/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 3001,
+		"oA": 0,
+		"oAP": "/ui/img/fav/epura/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/epura/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/epura/browserconfig.xml",
+		"oF": 0
+		},
+	"/ui/img/fav/epura/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 366,
+		"oA": 0,
+		"oAP": "/ui/img/fav/epura/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/epura/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 626,
+		"oA": 0,
+		"oAP": "/ui/img/fav/epura/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/epura/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/epura/favicon.ico",
+		"oF": 0
+		},
+	"/ui/img/fav/epura/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 1653,
+		"oA": 0,
+		"oAP": "/ui/img/fav/epura/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/epura/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/fav/epura/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/fav/epura/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/epura/site.webmanifest",
+		"oF": 0
+		},
 	"/ui/img/fav/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 1159,
@@ -235,6 +463,200 @@
 		"oAP": "/ui/img/fav/favicon.ico",
 		"oF": 0
 		},
+	"/ui/img/fav/frutzzo/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 7643,
+		"oA": 0,
+		"oAP": "/ui/img/fav/frutzzo/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/frutzzo/android-chrome-384x384.png": {
+		"ft": 32768,
+		"iS": 17710,
+		"oA": 0,
+		"oAP": "/ui/img/fav/frutzzo/android-chrome-384x384.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/frutzzo/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 7219,
+		"oA": 0,
+		"oAP": "/ui/img/fav/frutzzo/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/frutzzo/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/frutzzo/browserconfig.xml",
+		"oF": 0
+		},
+	"/ui/img/fav/frutzzo/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 736,
+		"oA": 0,
+		"oAP": "/ui/img/fav/frutzzo/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/frutzzo/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1467,
+		"oA": 0,
+		"oAP": "/ui/img/fav/frutzzo/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/frutzzo/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/frutzzo/favicon.ico",
+		"oF": 0
+		},
+	"/ui/img/fav/frutzzo/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 5802,
+		"oA": 0,
+		"oAP": "/ui/img/fav/frutzzo/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/frutzzo/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/fav/frutzzo/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/fav/frutzzo/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/frutzzo/site.webmanifest",
+		"oF": 0
+		},
+	"/ui/img/fav/gatorade/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 4156,
+		"oA": 0,
+		"oAP": "/ui/img/fav/gatorade/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/gatorade/android-chrome-384x384.png": {
+		"ft": 32768,
+		"iS": 9097,
+		"oA": 0,
+		"oAP": "/ui/img/fav/gatorade/android-chrome-384x384.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/gatorade/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 3553,
+		"oA": 0,
+		"oAP": "/ui/img/fav/gatorade/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/gatorade/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/gatorade/browserconfig.xml",
+		"oF": 0
+		},
+	"/ui/img/fav/gatorade/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 473,
+		"oA": 0,
+		"oAP": "/ui/img/fav/gatorade/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/gatorade/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 987,
+		"oA": 0,
+		"oAP": "/ui/img/fav/gatorade/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/gatorade/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/gatorade/favicon.ico",
+		"oF": 0
+		},
+	"/ui/img/fav/gatorade/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 2830,
+		"oA": 0,
+		"oAP": "/ui/img/fav/gatorade/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/gatorade/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/fav/gatorade/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/fav/gatorade/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/gatorade/site.webmanifest",
+		"oF": 0
+		},
 	"/ui/img/fav/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 2771,
@@ -246,6 +668,93 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/ui/img/fav/pepsi/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 3552,
+		"oA": 0,
+		"oAP": "/ui/img/fav/pepsi/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/pepsi/android-chrome-384x384.png": {
+		"ft": 32768,
+		"iS": 7886,
+		"oA": 0,
+		"oAP": "/ui/img/fav/pepsi/android-chrome-384x384.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/pepsi/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 3360,
+		"oA": 0,
+		"oAP": "/ui/img/fav/pepsi/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/pepsi/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/pepsi/browserconfig.xml",
+		"oF": 0
+		},
+	"/ui/img/fav/pepsi/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 516,
+		"oA": 0,
+		"oAP": "/ui/img/fav/pepsi/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/pepsi/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 859,
+		"oA": 0,
+		"oAP": "/ui/img/fav/pepsi/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/pepsi/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/pepsi/favicon.ico",
+		"oF": 0
+		},
+	"/ui/img/fav/pepsi/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 2904,
+		"oA": 0,
+		"oAP": "/ui/img/fav/pepsi/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/pepsi/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/pepsi/site.webmanifest",
+		"oF": 0
+		},
 	"/ui/img/fav/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -256,12 +765,120 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/ui/img/fav/sevenup/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 4377,
+		"oA": 0,
+		"oAP": "/ui/img/fav/sevenup/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/sevenup/android-chrome-384x384.png": {
+		"ft": 32768,
+		"iS": 9817,
+		"oA": 0,
+		"oAP": "/ui/img/fav/sevenup/android-chrome-384x384.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/sevenup/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 4191,
+		"oA": 0,
+		"oAP": "/ui/img/fav/sevenup/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/sevenup/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/sevenup/browserconfig.xml",
+		"oF": 0
+		},
+	"/ui/img/fav/sevenup/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 706,
+		"oA": 0,
+		"oAP": "/ui/img/fav/sevenup/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/sevenup/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1342,
+		"oA": 0,
+		"oAP": "/ui/img/fav/sevenup/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/sevenup/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/sevenup/favicon.ico",
+		"oF": 0
+		},
+	"/ui/img/fav/sevenup/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 3693,
+		"oA": 0,
+		"oAP": "/ui/img/fav/sevenup/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/fav/sevenup/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/fav/sevenup/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/fav/sevenup/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/fav/sevenup/site.webmanifest",
+		"oF": 0
+		},
 	"/ui/img/fav/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/ui/img/fav/site.webmanifest",
 		"oF": 0
+		},
+	"/ui/img/hashtag/default.png": {
+		"ft": 32768,
+		"iS": 5154,
+		"oA": 0,
+		"oAP": "/ui/img/hashtag/default.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/ui/img/ic/action_dash.svg": {
 		"ft": 2097152,
@@ -343,6 +960,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/ui/img/ic/facebook.png": {
+		"ft": 32768,
+		"iS": 1290,
+		"oA": 0,
+		"oAP": "/ui/img/ic/facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/ic/instagram.png": {
+		"ft": 32768,
+		"iS": 2279,
+		"oA": 0,
+		"oAP": "/ui/img/ic/instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/ui/img/ic/list.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -393,11 +1032,320 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/ui/img/ic/twitter.png": {
+		"ft": 32768,
+		"iS": 1574,
+		"oA": 0,
+		"oAP": "/ui/img/ic/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/ui/img/ic/upload.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/ui/img/ic/upload.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/ic/youtube.png": {
+		"ft": 32768,
+		"iS": 1458,
+		"oA": 0,
+		"oAP": "/ui/img/ic/youtube.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/logotipo/epura.png": {
+		"ft": 32768,
+		"iS": 8968,
+		"oA": 0,
+		"oAP": "/ui/img/logotipo/epura.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/logotipo/frutzzo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/logotipo/frutzzo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/logotipo/gatorade-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/logotipo/gatorade-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/logotipo/gatorade-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/logotipo/gatorade-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/logotipo/pepsi.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/logotipo/pepsi.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/logotipo/sevenup.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/logotipo/sevenup.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/mensajeError/default.png": {
+		"ft": 32768,
+		"iS": 5672,
+		"oA": 0,
+		"oAP": "/ui/img/mensajeError/default.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/mensajeExito/default.png": {
+		"ft": 32768,
+		"iS": 3981,
+		"oA": 0,
+		"oAP": "/ui/img/mensajeExito/default.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/og/fb-epura.jpg": {
+		"ft": 16384,
+		"iS": 44045,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/og/fb-epura.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/og/fb-frutzzo.jpg": {
+		"ft": 16384,
+		"iS": 26503,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/og/fb-frutzzo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/og/fb-gatorade.jpg": {
+		"ft": 16384,
+		"iS": 8127,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/og/fb-gatorade.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/og/fb-pepsi.jpg": {
+		"ft": 16384,
+		"iS": 42781,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/og/fb-pepsi.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/og/fb-seveup.jpg": {
+		"ft": 16384,
+		"iS": 10225,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/og/fb-seveup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/og/tw-epura.jpg": {
+		"ft": 16384,
+		"iS": 23328,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/og/tw-epura.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/og/tw-frutzzo.jpg": {
+		"ft": 16384,
+		"iS": 22060,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/og/tw-frutzzo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/og/tw-gatorade.jpg": {
+		"ft": 16384,
+		"iS": 5109,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/og/tw-gatorade.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/og/tw-pepsi.jpg": {
+		"ft": 16384,
+		"iS": 21952,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/og/tw-pepsi.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/og/tw-sevenup.jpg": {
+		"ft": 16384,
+		"iS": 8222,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/ui/img/og/tw-sevenup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/ui/img/plantilla.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/ui/img/plantilla.html",
+		"oF": 0
+		},
+	"/ui/img/precio/default.png": {
+		"ft": 32768,
+		"iS": 10047,
+		"oA": 0,
+		"oAP": "/ui/img/precio/default.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/producto/epura.png": {
+		"ft": 32768,
+		"iS": 332968,
+		"oA": 0,
+		"oAP": "/ui/img/producto/epura.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/producto/frutzzo.png": {
+		"ft": 32768,
+		"iS": 366577,
+		"oA": 0,
+		"oAP": "/ui/img/producto/frutzzo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/producto/gatorade.png": {
+		"ft": 32768,
+		"iS": 522881,
+		"oA": 0,
+		"oAP": "/ui/img/producto/gatorade.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/producto/pepsi.png": {
+		"ft": 32768,
+		"iS": 366459,
+		"oA": 0,
+		"oAP": "/ui/img/producto/pepsi.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/producto/seveup.png": {
+		"ft": 32768,
+		"iS": 361953,
+		"oA": 0,
+		"oAP": "/ui/img/producto/seveup.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/proveedor/oxxo.png": {
+		"ft": 32768,
+		"iS": 3290,
+		"oA": 0,
+		"oAP": "/ui/img/proveedor/oxxo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/img/proveedor/seveneleven.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/proveedor/seveneleven.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -424,6 +1372,67 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/ui/img/textoInicio/default.png": {
+		"ft": 32768,
+		"iS": 6404,
+		"oA": 0,
+		"oAP": "/ui/img/textoInicio/default.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/ui/js/bowser.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/ui/js/bowser.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/ui/js/front-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/ui/js/front-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/ui/js/front.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/ui/js/front-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/ui/js/globales-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/ui/js/globales-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/ui/js/globales.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/ui/js/globales-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/ui/js/main-min.js": {
 		"ft": 64,
@@ -454,7 +1463,7 @@
 	"creationDate": 575225996.68923104,
 	"displayValue": "geppFrontHTML",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "/ui/img/fav/apple-touch-icon.png",
+	"iconImageName": "/ui/img/fav/sevenup/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
