@@ -214,17 +214,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/ui/img/conf/loadLogo.jpg": {
-		"ft": 16384,
-		"iS": 5739,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/ui/img/conf/loadLogo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/ui/img/covers/cupon.jpg": {
 		"ft": 16384,
 		"iS": 5065,

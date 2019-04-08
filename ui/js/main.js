@@ -144,8 +144,6 @@ function sliderConfigFun(e){
   }
 }
 
-
-
 function loadFileCSV(t){
   var file = t.nextElementSibling,
       fileText = _("#msgCsvUpload"),
@@ -200,8 +198,9 @@ function getNumCSV(){
     }
 }
 
-
+var compactMenu = false;
 function checkSteps(n, t){
+  var w = window.innerWidth;
   switch (n) {
     case 1:
       checkConfig_1(n,t);
@@ -210,9 +209,13 @@ function checkSteps(n, t){
       responseStep(n , t, 1);
     break;
     case 3:
+      compactMenu = false;
+      compactConfigMenu(1);
       responseStep(n , t, 1);
     break;
     case 4:
+      compactMenu = true;
+      if(w>=880)compactConfigMenu(0);
       responseStep(n , t, 1);
     break;
     case 5:
@@ -221,8 +224,18 @@ function checkSteps(n, t){
   }
 }
 
-function compactConfigMenu(){
-  
+function compactConfigMenu(n){
+  var bArrow = _("#toggleMenuArrow"),
+      bArrowImg = bArrow.children[0],
+      menuConfig = _("#menuConfig");
+  if(n === 0){
+    bArrow.style.display = "none";
+    hideMenuConfig('hide', bArrow);
+    menuConfig.setAttribute("style", " ");
+  } else if (n === 1) {
+      bArrow.style.display = "block";
+      hideMenuConfig('show', bArrow);
+  }
 }
 
 function checkConfig_1(n, t){
