@@ -37,11 +37,11 @@
 		"oAP": "/login.html",
 		"oF": 0
 		},
-	"/plantilla.html": {
+	"/plantilla-uno.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/plantilla.html",
+		"oAP": "/plantilla-uno.html",
 		"oF": 0
 		},
 	"/ui/css/fonts/futurapt-bold.eot": {
@@ -117,6 +117,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/ui/css/master-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/ui/css/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/ui/css/style-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -976,6 +986,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/ui/img/ic/list.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/ic/menu-arrow-blue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/ic/menu-arrow-blue.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
