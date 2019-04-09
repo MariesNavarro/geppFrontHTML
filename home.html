@@ -386,18 +386,36 @@ http://dragonflycity.com/
               <button class="buttonConfig rightButton" type="button" name="button" onclick="checkSteps(4, this)">Siguiente</button>
             </form>
           </li>
-          <li class="editorPlantilla">
+          <li id="editorPlantilla">
             <!-- Configurador Edición de Plantilla -->
-            <div class="errorWConfig trans5">
-              <p>Tienes que seleccionar una opción.</p>
+            <div id="wrapEditorPlantilla">
+              <div id="contEditorPlantilla">
+                <iframe id="iframePlantilla" src="plantilla.html"></iframe>
+              </div>
+
+              <div id="editorPlantillaInterfaz">
+                <ul>
+                  <li>
+                    <a role="button"></a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <header>
-              <h2>Configurador de Promoción</h2>
-              <h3>Edición de Plantilla</h3>
-            </header>
-            <div id="rowConfigEditPlantilla" class="rowConfig">
-              <a role="button"></a>
-              <iframe id="iframePlantilla" src="plantilla.html" width="880" height="495"></iframe>
+            <!-- index Edicion Plantilla -->
+            <div id="indexEditorPlantilla" class="displayFlex">
+              <a role="button" onclick="sliderMobScreens('back')"><img class="cw180" src="ui/img/ic/menu-arrow-blue.svg" height="20"></a>
+              <div class="mobileIndexEditor">
+                <p><b id="pagScreen">Carga</b></p>
+                <span><b id="indexPagScreen">1</b>/5</span>
+              </div>
+              <a role="button" onclick="sliderMobScreens('next')"><img src="ui/img/ic/menu-arrow-blue.svg" height="20"></a>
+              <ul>
+                <li><a role="button" onclick="changeScreen(0)" class="indexScreenDesk screenDeskSelect">1.Carga</a></li>
+                <li><a role="button" onclick="changeScreen(1)" class="indexScreenDesk screenDeskUnselect">2.Inicio</a></li>
+                <li><a role="button" onclick="changeScreen(2)" class="indexScreenDesk screenDeskUnselect">3.Cupón</a></li>
+                <li><a role="button" onclick="changeScreen(3)" class="indexScreenDesk screenDeskUnselect">4.Mensaje Éxito</a></li>
+                <li><a role="button" onclick="changeScreen(4)" class="indexScreenDesk screenDeskUnselect">5.Mensaje Error</a></li>
+              </ul>
             </div>
             <form action="" method="" autocomplete="off">
               <button class="buttonConfig leftButton" type="button" name="button" onclick="checkSteps(3, this)">Anterior</button>
@@ -409,7 +427,11 @@ http://dragonflycity.com/
     </main>
     <script src="ui/js/main.js" charset="utf-8" async></script>
     <script type="text/javascript">
+      window.onload = function(){
+        rContEditor("#contEditorPlantilla");
+      }
       window.onresize = function(){
+        rContEditor("#contEditorPlantilla");
         var w = window.innerWidth;
         if(compactMenu){
           if(w < 880){
