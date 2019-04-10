@@ -30,6 +30,13 @@
 		"oAP": "/home.html",
 		"oF": 0
 		},
+	"/interfaz-uno.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/interfaz-uno.html",
+		"oF": 0
+		},
 	"/login.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -37,11 +44,11 @@
 		"oAP": "/login.html",
 		"oF": 0
 		},
-	"/plantilla-uno.html": {
+	"/plantilla-uno-pepsi.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/plantilla-uno.html",
+		"oAP": "/plantilla-uno-pepsi.html",
 		"oF": 0
 		},
 	"/ui/css/fonts/futurapt-bold.eot": {
@@ -99,6 +106,26 @@
 		"oA": 0,
 		"oAP": "/ui/css/fonts/futurapt-book.woff2",
 		"oF": 0
+		},
+	"/ui/css/interfaz-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/ui/css/interfaz-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/ui/css/interfaz.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/ui/css/interfaz-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/ui/css/master-min.css": {
 		"aP": 1,
@@ -1104,11 +1131,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/ui/img/logotipo/gatorade-white.svg": {
+	"/ui/img/logotipo/gatorade.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/ui/img/logotipo/gatorade-white.svg",
+		"oAP": "/ui/img/logotipo/gatorade.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1439,6 +1466,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/ui/js/globales-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/ui/js/interfaz-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/ui/js/interfaz-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/ui/js/interfaz.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/ui/js/interfaz-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

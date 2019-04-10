@@ -2,6 +2,16 @@
 function _(el){return document.querySelector(el); }
 function __(el){return document.querySelectorAll(el); }
 
+function showLoading(e){
+  var wr = _("#loadingConf");
+  if(e === 1){
+    wr.setAttribute("style", " ");
+  } else {
+    wr.style.display = "none";
+  }
+}
+
+
 function promoTabs(p,t){
   var w = _("#promoTabs"),
       ch = __(".tabButtons");
@@ -329,8 +339,10 @@ function selectClassScreens(n){
 }
 
 function changeScreen(n){
-  var frame = _("#iframePlantilla");
+  var frame = _("#iframePlantilla"),
+      frameIF = _("#iframeInterfaz");
   frame.contentWindow.screensOnConf(n);
+  frameIF.contentWindow.changeScreenInterfaz(n);
   selectClassScreens(n);
 }
 //finprimeraParte
