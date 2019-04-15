@@ -997,6 +997,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/ui/img/ic/hide_interfaz.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/ic/hide_interfaz.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/ui/img/ic/instagram.png": {
 		"ft": 32768,
 		"iS": 2279,
@@ -1063,6 +1073,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/ui/img/ic/menu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/ui/img/ic/show_interfaz.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/ic/show_interfaz.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
