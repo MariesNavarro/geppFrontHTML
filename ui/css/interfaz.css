@@ -315,6 +315,11 @@ label>.titleDown{
 .hoverLabel{
   width: 100%;
   height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -327,6 +332,13 @@ label>.titleDown{
 }
 .hoverLabel:hover{
   opacity: 1;
+}
+.hoverLabel>p{
+  font-size: 0.8rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #fff;
 }
 .hoverLabel>svg{
   width: 30px;
