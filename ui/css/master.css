@@ -704,7 +704,7 @@ main.home>#promosW>ul>li{
   overflow-x:hidden;
 }
 .config>#configWrap>ul#sliderConfig{
-  margin-left: -400%;
+  margin-left: 0%;
   width: 500%;
   min-height: 100vh;
 }
