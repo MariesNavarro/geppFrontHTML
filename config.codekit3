@@ -44,6 +44,34 @@
 		"oAP": "/login.html",
 		"oF": 0
 		},
+	"/mail/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/mail/index.html",
+		"oF": 0
+		},
+	"/mail/logo-mail.png": {
+		"ft": 32768,
+		"iS": 1558,
+		"oA": 0,
+		"oAP": "/mail/logo-mail.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/mail/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/mail/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/plantilla-uno-pepsi.html": {
 		"cB": 0,
 		"ft": 8192,
