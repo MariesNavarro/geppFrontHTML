@@ -966,6 +966,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/ui/img/ic/action_question.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/ui/img/ic/action_question.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/ui/img/ic/action_report.svg": {
 		"ft": 2097152,
 		"miP": 0,
